@@ -6,6 +6,8 @@
 The repository contains the following files:
 * README.md: This file. Provides instructions for how to run R script and an overview of how the script operates
 * Tidy_Data.txt: The final, cleaned and summarised data created by following the steps in the project outline
+* CodeBook.md : The code book for the final tidied data set "Tidy_Data.txt"
+* run_analysis.R : R script, instructions for running and overview of actions below
 
 ### Instructions For running run_analysis.R
 1. Open the R script run_analysis.R in your R session
