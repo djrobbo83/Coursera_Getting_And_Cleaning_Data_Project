@@ -106,9 +106,9 @@ The following transformations we're applied to the raw data contained in the zip
 * The "Activity_No" field was labeled using data in the "*activity_labels.txt*" file
 * The "Activity_No" field was then renamed to "Activity_Type" for clarity
 * A number of renaming operations took place to improve clarity of names and make the variable titles more meaningful:
- * Time Domain measurements, starting with t, had the "t" replaced with "Time_"
- * Frequency Domain measurements, which started with f, has the "f" replaced with "Frequency_" 
- * The Following Strings in the variables were replaced with their counterpart where string to left was | was original and name to left is updated string:
+  * Time Domain measurements, starting with t, had the "t" replaced with "Time_"
+  * Frequency Domain measurements, which started with f, has the "f" replaced with "Frequency_" 
+  * The Following Strings in the variables were replaced with their counterpart where string to left was | was original and name to left is updated string:
   * "Acc" | "_Accelerometer_"
   * "Gyro" | "_Gryroscope_"
   * "Jerk" | "Jerk_"
