@@ -114,11 +114,11 @@ The following transformations we're applied to the raw data contained in the zip
   * "Jerk" | "Jerk_"
   * "Mag" | "Magnitude_"
  * There also appeared to be a typo where some variables had the string "BodyBody" included, this was replaced with "Body"
- * the strings "-mean()" and "-StdDev()" had the () removed
+ * the strings "-mean()" and "-StdDev()" had the "()" removed
  * -X; -Y; -Z where replaced with _X, _Y, _Z respectively
 * The Data was summarised using the following steps, using the dplyr package:
- * Data was grouped by Subject_No and Activity_Type
- * The summary function used was mean
- * Data was sorted by Subject_No and Activity_Type
+  * Data was grouped by Subject_No and Activity_Type
+  * The summary function used was mean
+  * Data was sorted by Subject_No and Activity_Type
 * The tidied data was output to the working directory. 
 
