@@ -40,6 +40,20 @@ The repository contains the following files:
      folder "UCI HAR Dataset":
       * activity_labels.txt
       * features.txt
-      
+   * Merges Test and Train datasets for for subjects and activites; then merges these files to create the main dataset
+   * Applies feature names to dataset using import "*features.txt*" to make interpretationa and manipulation easier
+* Section 2:
+   * Extracts only column names with headings including the strings mean() or std()
+* Section 3:
+   * Uses the "*activity_labels.txt*" file to convert activity numbers to more interpretable text format
+* Section 4:
+   * Renames the variables in the data
+   * This mainly relies on *gsub()* function to find and replace text strings
+   * This is for both interpretability and aesthetics
+* Section 5:
+   * Takes the dataset and summarises so that for each Subject and Activity type in the analysis the mean value is returned
+   * This uses functions from *dplyr* to group, summarise and order the data in a clean format
+   * Finally the cleaned and tidy data is exported to a .txt file in the working directory
+   * This .txt file "Tidy_Data.txt" has been uploaded to this GitHub repository
       
       
