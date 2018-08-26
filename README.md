@@ -26,15 +26,18 @@ The repository contains the following files:
    * Checks if file has already been downloaded and unzipped; else unzips folder
 * Section 1:
    * Reads in the following text files in the folder and subfolders downloaded in previous steps:
-      sub folder "train":
+     
+     sub folder "train":
       * subject_train.txt
       * X_train.txt
       * y_train.txt
-      sub folder "test":
+     
+     sub folder "test":
       * subject_test.txt
       * X_test.txt
       * y_test.txt
-      folder "UCI HAR Dataset":
+     
+     folder "UCI HAR Dataset":
       * activity_labels.txt
       * features.txt
       
