@@ -1,2 +1,4 @@
-# Coursera_Getting_And_Cleaning_Data_Project
-Repository containing all material from the Project on JHU Data Science course Getting and Cleaning Data
+## Getting And Cleaning Data Course Project
+**This README File contains instructions for running the R script run_analysis.R in this repo
+   and a description of what transformations the script carries out on the data**
+
