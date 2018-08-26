@@ -98,7 +98,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 ## Transformations
 The following transformations we're applied to the raw data contained in the zip file downloaded from the source website. 
-* The column in the Subjects text files (*suject..*) were renamed from V1 to Subject_No
+* The column in the Subjects text files (*subject..*) were renamed from V1 to Subject_No
 * The column in the Activity text files (*y_...*) were renamed from V1 to Activity_No
 * All Test and Training data sets were merged to form one dataset containg all information relating to Subjects, Activities and the measurements
 * The *features.txt"* file was used to name the measurements columns on the merged dataset
@@ -116,5 +116,9 @@ The following transformations we're applied to the raw data contained in the zip
  * There also appeared to be a typo where some variables had the string "BodyBody" included, this was replaced with "Body"
  * the strings "-mean()" and "-StdDev()" had the () removed
  * -X; -Y; -Z where replaced with _X, _Y, _Z respectively
-
+* The Data was summarised using the following steps, using the dplyr package:
+ * Data was grouped by Subject_No and Activity_Type
+ * The summary function used was mean
+ * Data was sorted by Subject_No and Activity_Type
+* The tidied data was output to the working directory. 
 
