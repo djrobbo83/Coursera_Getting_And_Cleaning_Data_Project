@@ -23,7 +23,7 @@ There are 66 measurement variables in the dataset. All measurements are numeric,
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 #### Time Domain
-The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals Time_Accelerometer_XYZ and Time_Gyrosope_XYZ. The time domain signals (prefix 'Time_' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (Time_Body_Accelerometer_XYZ and Time_Gravity_Accelerometer_XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals Time_Accelerometer_XYZ and Time_Gyrosope_XYZ. The time domain signals (prefix 'Time_' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (Time_Body_Accelerometer_XYZ and Time_Gravity_Accelerometer_XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. The Data was summarised to produce an average for each of the Mean and Standard deviation for each subject and activity undertaken.
 * Time_Body_Accelerometer_Mean_X
 * Time_Body_Accelerometer_Mean_Y
 * Time_Body_Accelerometer_Mean_Z
@@ -37,7 +37,7 @@ The features selected for this database come from the accelerometer and gyroscop
 * Time_Gravity_Accelerometer_StdDev_Y
 * Time_Gravity_Accelerometer_StdDev_Z
 
-Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (Time_Body_Accelerometer_Jerk_XYZ and Time_Body_Gyroscope_Jerk_XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (Time_Body_Acceleromter_Magnitude, Time_Gravity_Accelerator_Magnitude, Time_Body_Accelertor_Jerk_Magnitude, Time_Body_Gyroscope_Magnitude, Time_Body_Gyroscope_Jerk_Magnitude). 
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (Time_Body_Accelerometer_Jerk_XYZ and Time_Body_Gyroscope_Jerk_XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (Time_Body_Acceleromter_Magnitude, Time_Gravity_Accelerator_Magnitude, Time_Body_Accelertor_Jerk_Magnitude, Time_Body_Gyroscope_Magnitude, Time_Body_Gyroscope_Jerk_Magnitude). The Data was summarised to produce an average for each of the Mean and Standard deviation for each subject and activity undertaken. 
 * Time_Body_Accelerometer_Jerk_Mean_X
 * Time_Body_Accelerometer_Jerk_Mean_Y
 * Time_Body_Accelerometer_Jerk_Mean_Z
@@ -68,7 +68,7 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 * Time_Body_Gyroscope_Jerk_Magnitude_StdDev  
 
 #### Frequency Domain
-Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing Frequency_Body_Accelerometer_XYZ, Freqquency_Body_Accelerometer_Jerk_XYZ, Frequecny_Body_Gyroscope_XYZ, Frequency_Bod_Accelerometer_Jerk_Magnitude, Frequency_Body_Gyroscope_Magnitude, Frequency_Body_Gyroscope_Jerk_Magnitude. (Note the 'f' to indicate frequency domain signals). 
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing Frequency_Body_Accelerometer_XYZ, Freqquency_Body_Accelerometer_Jerk_XYZ, Frequecny_Body_Gyroscope_XYZ, Frequency_Bod_Accelerometer_Jerk_Magnitude, Frequency_Body_Gyroscope_Magnitude, Frequency_Body_Gyroscope_Jerk_Magnitude. (Note the 'f' to indicate frequency domain signals). The Data was summarised to produce an average for each of the Mean and Standard deviation for each subject and activity undertaken.
 * Frequency_Body_Accelerometer_Mean_X
 * Frequency_Body_Accelerometer_Mean_Y
 * Frequency_Body_Accelerometer_Mean_Z
