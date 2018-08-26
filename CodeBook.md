@@ -22,7 +22,7 @@ There are two identification variables in the data:
 There are 66 measurement variables in the dataset. All measurements are numeric, and are average values based on measurements for mean and standard deviations across each subject for each activity undertaken. These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-###Time Domain
+#### Time Domain
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals Time_Accelerometer_XYZ and Time_Gyrosope_XYZ. The time domain signals (prefix 'Time_' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (Time_Body_Accelerometer_XYZ and Time_Gravity_Accelerometer_XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 * Time_Body_Accelerometer_Mean_X
 * Time_Body_Accelerometer_Mean_Y
@@ -67,7 +67,7 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 * Time_Body_Gyroscope_Jerk_Magnitude_Mean
 * Time_Body_Gyroscope_Jerk_Magnitude_StdDev  
 
-### Frequency Domain
+#### Frequency Domain
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing Frequency_Body_Accelerometer_XYZ, Freqquency_Body_Accelerometer_Jerk_XYZ, Frequecny_Body_Gyroscope_XYZ, Frequency_Bod_Accelerometer_Jerk_Magnitude, Frequency_Body_Gyroscope_Magnitude, Frequency_Body_Gyroscope_Jerk_Magnitude. (Note the 'f' to indicate frequency domain signals). 
 * Frequency_Body_Accelerometer_Mean_X
 * Frequency_Body_Accelerometer_Mean_Y
